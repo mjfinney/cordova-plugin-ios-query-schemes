@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<plugin id="cordova-plugin-ios-query-schemes" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+    <name>iOS Application Queries Schemes</name>
+    <author>Michael Finney</author>
+    <description>Cordova / PhoneGap Plugin to add LSApplicationQueriesSchemes to your plist file with a list of query schemes.</description>
+    <keywords>cordova, ios, query, schemes</keywords>
+    <license>MIT</license>
+    <engines>
+        <engine name="cordova" version=">=3.0.0"/>
+    </engines>
+    <platform name="ios">
+        <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">
+            <array>
+                <string>twitter</string>
+                <string>fb</string>
+                <string>instagram</string>
+                <string>flickr</string>
+                <string>pinterest</string>
+                <string>gplus</string>
+                <string>vnd.youtube</string>
+            </array>
+        </config-file>
+    </platform>
+</plugin>
+

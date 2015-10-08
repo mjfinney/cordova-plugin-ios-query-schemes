@@ -1,0 +1,35 @@
+{
+  "name": "cordova-plugin-ios-query-schemes",
+  "version": "1.0.0",
+  "author": "Michael Finney",
+  "description": "Cordova / PhoneGap Plugin to add LSApplicationQueriesSchemes to your plist file with a list of query schemes.",
+  "cordova": {
+    "id": "cordova-plugin-ios-query-schemes",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "cordova",
+    "ios",
+    "query",
+    "schemes",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}
