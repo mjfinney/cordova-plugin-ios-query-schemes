@@ -18,6 +18,7 @@
                 <string>pinterest</string>
                 <string>gplus</string>
                 <string>vnd.youtube</string>
+                <string>youtube</string>
             </array>
         </config-file>
     </platform>
